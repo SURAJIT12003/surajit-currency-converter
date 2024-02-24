@@ -1,0 +1,26 @@
+{
+  "name": "surajit-currency-converter",
+  "version": "1.0.0",
+  "description": "A currency converter npm package ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SURAJIT12003/surajit-currency-converter.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Surajit Dey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SURAJIT12003/surajit-currency-converter/issues"
+  },
+  "homepage": "https://github.com/SURAJIT12003/surajit-currency-converter#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
