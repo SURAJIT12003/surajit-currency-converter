@@ -13,12 +13,14 @@ First, install the package using npm:
 **Sample Usages -**
 
 ```javascript 
-import { convertCurrency } from "/surajit-currency-converter";
+import { convertCurrency } from "surajit-currency-converter";
 
-convertCurrency("IND","USD",3).then(res=>{
+convertCurrency("INR", "EUR", 3)
+  .then((res) => {
     console.log(res);
 });
+
 ```
 
-In this example, we’re converting 3 units of currency from Indian Rupees (IND) to US Dollars (USD). The convertCurrency function returns a Promise, and the converted value is logged to the console once the Promise resolves.
+In this example, we’re converting 3 units of currency from Indian Rupees (INR) to Euros(EUR). The convertCurrency function returns a Promise, and the converted value is logged to the console once the Promise resolves.
 
