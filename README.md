@@ -8,7 +8,7 @@ This package is a Currency Converter. It’s a simple and efficient tool that al
 
 First, install the package using npm:
 
-npm i surajit-currency-converter
+```npm i surajit-currency-converter```
 
 **Sample Usages -**
 
